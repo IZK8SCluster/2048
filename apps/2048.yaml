@@ -7,10 +7,10 @@ metadata:
 spec:
   replicas: 2
   selector:
-    matchlabels:
+    matchLabels:
       app: 2048-game
   strategy: {}
-  templete:
+  template:
     metadata:
       labels:
         app: 2048-game
