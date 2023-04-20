@@ -30,6 +30,7 @@ metadata:
   labels:
     app: game-service
 spec:
+  type: NodePort
   ports:
   - name: 2048-game
     port: 80
